@@ -170,9 +170,9 @@ k = int(input("Введите требуемое количество долек
 
 if (m * n >= k):
     if (k % m == 0):
-        print("yes to m")
+        print("yes to high")
     elif (k % n == 0):
-        print("yes to n")
+        print("yes to long")
     else:
         print("no")
 else:
