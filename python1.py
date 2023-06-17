@@ -164,3 +164,16 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
+n = int(input("введите длинну шоколадки :"))
+m = int(input("введите ширину шоколадки :"))
+k = int(input("Введите требуемое количество долек :"))
+
+if (m * n >= k):
+    if (k % m == 0):
+        print("yes to m")
+    elif (k % n == 0):
+        print("yes to n")
+    else:
+        print("no")
+else:
+    print("no")
